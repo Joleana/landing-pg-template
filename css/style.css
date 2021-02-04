@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.banner {
+  background-image:url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+
+}
+
+.banner p {
+  color: white;
+}
+
+.banner h1 {
+  color: white;
+
+}
+
+.card {
+  width: 200px;
+  border-radius: 30px;
+  border: 0 1px solid grey;
+  box-shadow: 0 0 2px grey;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  height: 80px;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  color: white;
+  border-radius: 25px;
+  border: 0 1px solid;
+  background-color: #20DD88;
+  display: inline-block;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #2C2B2B;
+  padding: 60px;
+  text-align: center;
+
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #20DD88;
+}
+
+.footer p {
+  color: grey;
+}
+
+.footer .fas {
+  color: red;
+}
+
+.footer .far {
+  color: yellow;
+}
+/*Media queries*/
